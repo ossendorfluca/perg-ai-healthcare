@@ -1,0 +1,20 @@
+[project]
+name = "ai4h"
+version = "0.1.0"
+description = "AI project AI in Healthcare"
+requires-python = ">=3.10,<3.11"
+authors = [
+  { name="Luca Rita Ossendorf", email="lucaossendorf@outlook.com" }
+]
+dependencies = [
+  "numpy",
+  "pandas",
+  "matplotlib",
+  "scikit-learn",
+  "imblearn",
+  "tensorflow"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
